@@ -12,7 +12,7 @@ title                    : "Adeline Li"
 title_separator          : "-"
 name                     : &name "Adeline Li"
 description              : &description "First-year Ph.D. student"
-url                      : https://adelineli.netlify.app # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://adelineli.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "acadamic-pages"
 

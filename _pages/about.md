@@ -11,4 +11,4 @@ Hi! I’m currently a first year PhD student majoring in Computer Science and Ap
 
 My research interests include Computer Science Education, Human-AI Interaction, Human Computer Interaction. My personal interests include Drawing, Dancing and video game. My favorite video game is Overwatch :D 
 
-For more information please see my CV. My legal name is Xinran Li, Adeline is my preferred name.
+For more information please see my [CV](https://aokiumi.netlify.app/doc/CV.pdf). My legal name is Xinran Li, Adeline is my preferred name.
