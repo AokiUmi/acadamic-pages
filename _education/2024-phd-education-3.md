@@ -5,5 +5,5 @@ type: "Ph.D. in Computer Science & Applications"
 permalink: /education/phd
 venue: "Aug 2024 - Present"
 date: 2024-08-06
-location: "Blacksburg, VA <br/><img src='/images/vt_logo.png'>"
+location: "Blacksburg, VA <br/><img src='/images/vt_logo.png' style='max-height: 145px;'>"
 ---
