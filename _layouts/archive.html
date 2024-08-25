@@ -15,7 +15,8 @@ layout: default
 <div id="main" role="main">
   {% include sidebar.html %}
 
-  <div class="archive" style="padding-left: 10%;">
+  <div class="archive">
+    <style>@media (min-width: 925px) {.archive {padding-left: 10%;}}</style>
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 class="page__title">{{ page.title }}</h1>
     {% endunless %}
