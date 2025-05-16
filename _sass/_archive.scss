@@ -244,29 +244,27 @@
   }
 }
 
-/*
-   Paper
-   ========================================================================== */
-   .paper-item-flex {
-    display: flex;
-    align-items: flex-start;
-    gap: 1.5em;
-    margin-bottom: 2em;
-  }
-  
-  .paper-teaser {
-    flex: 0 0 30%;
-    max-width: 30%;
-    height: 165px; /* Fixed height */
-    overflow: hidden;
-  }
-  
-  .paper-teaser img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
+
+.paper-item-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5em;
+  margin-bottom: 2em;
+}
+
+.paper-teaser {
+  flex: 0 0 30%;
+  max-width: 30%;
+  height: 165px; /* Fixed height */
+  overflow: hidden;
+}
+
+.paper-teaser img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 
 .paper-content {
   flex: 1;

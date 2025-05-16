@@ -26,12 +26,13 @@
 "></div>
  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
   {% if post.collection == 'publications' %}
-  <div class="paper-item-flex" style="margin-bottom: 5px;">
+  <div class="paper-item-flex" style="display: flex; align-items: flex-start; gap: 1.5em; margin-bottom: 5px;">
     
     {% if post.teaser %}
-      <div class="paper-teaser">
-        <img src="{{ base_path }}/images/{{ post.teaser }}" alt="{{ post.title }}">
-      </div>
+    <div class="paper-teaser" style="flex: 0 0 30%; max-width: 30%; height: 165px; overflow: hidden;">
+      <img src="{{ base_path }}/images/{{ post.teaser }}" alt="{{ post.title }}"
+           style="width: 100%; height: 100%; object-fit: cover; display: block;">
+    </div>
     {% endif %}
 
     <div class="paper-content">
