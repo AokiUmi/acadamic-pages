@@ -10,7 +10,16 @@ layout: compress
     {% include head.html %}
     {% include head/custom.html %}
   </head>
-
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll('.abstract-toggle-btn').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          const abstractDiv = btn.parentElement.querySelector('.abstract-content');
+          abstractDiv.classList.toggle('hidden');
+        });
+      });
+    });
+  </script>
   <body>
 
     {% include browser-upgrade.html %}
