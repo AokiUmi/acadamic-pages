@@ -47,7 +47,9 @@
       <p style="margin: 5px 0; font-size: 16px;"><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
 
       {% if post.author %}
-        <p style="margin: 5px 0; font-size: 16px;" class="archive__item-excerpt" itemprop="description">{{ post.author }}</p>
+        <p style="margin: 5px 0; font-size: 16px;" class="archive__item-excerpt" itemprop="description">
+          {{ post.author | replace: "Xinran Li", "<strong>Xinran Li</strong>" | replace: "Xinran Adeline Li", "<strong>Xinran Adeline Li</strong>" | raw }}
+        </p>
       {% endif %}
 
       <div class="links" style="margin-top: 5px;">
