@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Adeline Li"
+title                    : "Xinran Adeline Li"
 title_separator          : "-"
-name                     : &name "Adeline Li"
+name                     : &name "Xinran Adeline Li"
 description              : &description "First-year Ph.D. student"
 url                      : https://adelineli.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,13 +22,13 @@ repository               : "acadamic-pages"
 author:
   # Biographic information
   avatar           : "profile.JPG"
-  name             : "Adeline Li"
+  name             : "Xinran Adeline Li"
   pronouns         : "she/her"  
-  bio              : "First-year Ph.D. student at Virginia Tech"
-  location         : "Blacksburg, Virginia"
-  employer         : "Virginia Tech"
+  bio              : "First-year Ph.D. student at Johns Hopkins University"
+  location         : "Baltimore, Maryland"
+  employer         : "Johns Hopkins University"
   uri              : # URL
-  email            : "adelineli@vt.edu" 
+  email            : "me@adelineli.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
