@@ -24,9 +24,9 @@ author:
   avatar           : "profile.JPG"
   name             : "Xinran Adeline Li"
   pronouns         : "she/her"  
-  bio              : "First-year Ph.D. student at Johns Hopkins University"
-  location         : "Baltimore, Maryland"
-  employer         : "Johns Hopkins University"
+  bio              : #
+  location         : #
+  employer         : #
   uri              : # URL
   email            : "me@adelineli.com" 
 
@@ -55,7 +55,7 @@ author:
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : "aoki_umi_"
+  instagram        : #
   lastfm           : # Username
   linkedin         : "adeline-li-a50014268"
   mastodon         : # URL
